@@ -1,0 +1,27 @@
+# Ignore virtualenv
+venv/
+ENV/
+env/
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment variables
+.env
+
+# IDE/editor junk
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Test artifacts or log files
+*.log
+*.sqlite3
